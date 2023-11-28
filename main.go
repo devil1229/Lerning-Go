@@ -25,6 +25,18 @@ var wg = sync.WaitGroup{}
 
 func main() {
 
+
+	//practice Question Calls
+	printPascals()
+	addTwoMatrix()
+	fibbonacci()
+
+	startBooking()
+
+	
+}
+
+func startBooking(){
 	//declaring the variables at packge level so that each function the package can use them 
 	// conferenceName := "Go Conference"
 	// const conferenceTickets = 50
